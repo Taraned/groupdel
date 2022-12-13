@@ -1,6 +1,6 @@
-# Author: 
+# Author: Raphael Reti
 
-function dogroupdel() {
+function groupadd() {
 
 
 }
