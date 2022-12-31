@@ -57,8 +57,5 @@ function douseradd() {
 
     OPTIONS=$OPTIONS" "$NAME
 
-    echo  "useradd "$OPTIONS
-    sleep 10
-
-    # "useradd -m -g $GRUPPE -c \"$KOMM\" $USERNAME"
+    useradd $OPTIONS
 }
