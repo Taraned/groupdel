@@ -1,4 +1,8 @@
 #!/bin/bash
+# Description: A small user managment system for the linux operating system
+# Author:      Christoph Koschel
+# Issues:      koschelch@elektronikschule.de
+# Version:     1.0.0
 
 function douseradd() {
     OPTIONS="-m"
