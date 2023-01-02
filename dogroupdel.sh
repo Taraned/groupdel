@@ -1,6 +1,6 @@
 # Author: Raphael Reti
 
-function add_group(){
+function groupadd(){
   GRUPPE=`kdialog --inputbox "Gruppenname:"`
   if [ `grep "^${GRUPPE}:" /etc/group` ]; then
     kdialog --error "Fehler: Gruppe existiert bereits!"
