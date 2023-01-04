@@ -5,6 +5,9 @@
 # Version:     1.0.0
 
 source douseradd.sh
+source douserdel.sh
+source dogroupdel.sh
+
 
 function main() {
     while :
@@ -15,10 +18,13 @@ function main() {
             douseradd
             ;;
         2)
+            
             ;;
         3)
+            douserdel
             ;;
         4)
+            dogroupdel
             ;;
         *)
             exit 0
