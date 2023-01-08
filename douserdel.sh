@@ -21,5 +21,3 @@ function douserdel(){
         dialog --stdout --infobox "Es gibt keinen User mit diesem Usernamen" 5 40
     fi
 }
-
-douserdel
